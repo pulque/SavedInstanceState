@@ -53,6 +53,7 @@ public class Main2Fragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        Log.e("=============", "Main2Fragment +++onActivityCreated+++ savedInstanceState");
         mViewModel = ViewModelProviders.of(this).get(Main2ViewModel.class);
         // TODO: Use the ViewModel
     }
